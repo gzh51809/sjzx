@@ -1,0 +1,29 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    *{
+        padding: 0;
+        margin: 0;
+    }
+.App{
+    height:100%;
+    // position: relative;
+    .footer{
+        position: fixed;
+        bottom:0px;
+    // position: absolute;
+    // top: 100px;
+        ul{
+            li{
+                text-align: center;
+                width: 20%;
+                height: 46px;
+                line-height: 0px;
+                .mingzi{
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+}
