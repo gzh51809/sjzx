@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Route,Switch} from 'react-router-dom';
+import {Route,Switch,Redirect,withRouter} from 'react-router-dom';
 import AppHome from './components/Home'
 import AppClassfiy from './components/Classfiy'
 import AppMine from './components/Mine'
@@ -49,18 +49,26 @@ class App extends Component {
           icon:'user'
         },
        ],
-       current:'Home' 
+       current:'/Home' 
     }
-      
+      //this绑定
+      this.handleChange = this.handleChange.bind(this);
   }
-  handleChange(){
-    
+  handleChange({item,key,selectedKeys}){
+    console.log(item,key,selectedKeys)
+    this.setState({
+      current:key
+    })
+    this.props.history.push(key)
   }
   render() {
     return (
       <div className="App">
      
-      <div className="footer"> <Menu mode="horizontal">
+      <div className="footer"> <Menu mode="horizontal"
+      selectedKeys={[this.state.current]}
+      onClick={this.handleChange}
+      >
         {
           this.state.menu.map(menu=>{
             return(
@@ -79,12 +87,13 @@ class App extends Component {
           <Route  path="/flashgo" component = {AppFlashgo} />
           <Route  path="/cart" component = {AppCart} />
           <Route  path="/mine" component = {AppMine} />
-          <Route path="/" component = {AppHome} />
+          <Redirect from="/" to="/home"/>
         </Switch></div>
      
       </div>
     );
   }
 }
+App = withRouter(App);
 
 export default App;
