@@ -9,9 +9,14 @@ html,body{
     .footer{
         // position: fixed;
         // bottom:0px;
+        // height: 100px;
+        // bottom:0px;
     // position: absolute;
     // top: 100px;
-        ul{
+        .ant-menu{
+            width: 100%;
+            position: fixed;
+        bottom:0px;
             .ant-menu-item{
                 text-align: center;
                 width: 20%;

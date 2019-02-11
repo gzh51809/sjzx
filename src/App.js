@@ -55,7 +55,7 @@ class App extends Component {
       this.handleChange = this.handleChange.bind(this);
   }
   handleChange({item,key,selectedKeys}){
-    console.log(item,key,selectedKeys)
+    // console.log(item,key,selectedKeys)
     this.setState({
       current:key
     })
