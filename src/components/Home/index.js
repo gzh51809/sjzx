@@ -1,10 +1,40 @@
 import React,{ Component} from 'react';
 import { Input,Carousel } from 'antd';
 import './index.scss';
+import axios from 'axios';
+// import request from '../../helper.js'
 
 
 const Search = Input.Search;
 class Home extends Component{
+    constructor(props){
+        super(props);
+        this.state={
+          users:[],
+          isLoaded:false
+        }
+    }
+
+        componentDidMount(){
+            const _this=this;    //先存一下this，以防使用箭头函数this会指向我们不希望它所指向的对象。
+            axios.get('http://localhost:3000/home-top.json')
+            .then(function (response) {
+                console.log(response.data);
+              _this.setState({
+                users:response.data,
+                isLoaded:true
+                
+              });
+            })
+            .catch(function (error) {
+            //   console.log(error);
+              _this.setState({
+                isLoaded:false,
+                error:error
+              })
+            })
+          }
+        
 
     render () {
         return (
@@ -38,6 +68,19 @@ class Home extends Component{
                             </div>
                             </a></li>
                     </ul>
+
+                    {/* {
+                        this.state.user.map(menu=>{
+                            return(
+                            <ul>
+                                <li><a href={item.mHref}><div className="tu2019"><img src={item.mImgUrl} /></div>
+                                <div className="zi2019">
+                                    {item.title}
+                                    </div>
+                                    </a></li>
+                    </ul>)
+                        })
+                    } */}
                 </div>
 
                 <div className="news">

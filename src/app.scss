@@ -19,13 +19,26 @@ html,body{
         bottom:0px;
             .ant-menu-item{
                 text-align: center;
+
                 width: 20%;
                 height: 46px;
-                line-height: 0px;
-                .mingzi{
-                    margin-top: 10px;
+                line-height: 18px;
+                // line-height:46px;
+                // .ant-menu-submenu-title .anticon{
+                //     margin:0px;
+                // }
+                .dange{
+                    text-align: center;
+                   .anticon{
+                        text-align: center;
+                        margin:0px;
+                    }
+                     .mingzi{
+                    // margin-top: 10px;
                 }
-            
+                }
+               
+                // .ant-menu-item .anticon, 
         }
     }
 }

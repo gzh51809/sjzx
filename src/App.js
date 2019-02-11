@@ -72,7 +72,7 @@ class App extends Component {
         {
           this.state.menu.map(menu=>{
             return(
-            <Menu.Item key={menu.name}><div>
+            <Menu.Item key={menu.name}><div className="dange">
             <Icon type={menu.icon}/>
             <div className="mingzi">{menu.text}</div>
             </div>
