@@ -1,45 +1,45 @@
 ﻿{
-  "status": 1000,
-  "msg": "",
-  "data": [
+  status: 1000,
+  msg: "",
+  data: [
     {
-      "title": "会员商城",
-      "mImgUrl": "https://m.winex-hk.com/upload/20190203/20190203092740_7847.png",
-      "mHref": "https://m.winex-hk.com/goods_t2"
+      title: "会员商城",
+      mImgUrl: "https://m.winex-hk.com/upload/20190203/20190203092740_7847.png",
+      mHref: "https://m.winex-hk.com/goods_t2"
     },
     {
-      "title": "跨境电商",
-      "mImgUrl": "https://m.winex-hk.com/upload/20190203/20190203092750_6751.png",
-      "mHref": "https://m.winex-hk.com/goods_t1"
+      title: "跨境电商",
+      mImgUrl: "https://m.winex-hk.com/upload/20190203/20190203092750_6751.png",
+      mHref: "https://m.winex-hk.com/goods_t1"
     },
     {
-      "title": "红葡萄酒",
-      "mImgUrl": "https://m.winex-hk.com/upload/20190203/20190203092759_6556.png",
-      "mHref": "https://m.winex-hk.com/goods_w8"
+      title: "红葡萄酒",
+      mImgUrl: "https://m.winex-hk.com/upload/20190203/20190203092759_6556.png",
+      mHref: "https://m.winex-hk.com/goods_w8"
     },
     {
-      "title": "白葡萄酒",
-      "mImgUrl": "https://m.winex-hk.com/upload/20190203/20190203092808_3701.png",
-      "mHref": "https://m.winex-hk.com/goods_w7"
+      title: "白葡萄酒",
+      mImgUrl: "https://m.winex-hk.com/upload/20190203/20190203092808_3701.png",
+      mHref: "https://m.winex-hk.com/goods_w7"
     },
     {
-      "title": "气泡酒",
-      "mImgUrl": "https://m.winex-hk.com/upload/20190203/20190203092824_5530.png",
-      "mHref": "https://m.winex-hk.com/goods_w241"
+      title: "气泡酒",
+      mImgUrl: "https://m.winex-hk.com/upload/20190203/20190203092824_5530.png",
+      mHref: "https://m.winex-hk.com/goods_w241"
     },
     {
-      "title": "天天闪购",
-      "mImgUrl": "https://m.winex-hk.com/upload/20190203/20190203092839_1053.png",
-      "mHref": "https://m.winex-hk.com/activity/TTSG"
+      title: "天天闪购",
+      mImgUrl: "https://m.winex-hk.com/upload/20190203/20190203092839_1053.png",
+      mHref: "https://m.winex-hk.com/activity/TTSG"
     },
     {
-      "title": "逢九必嗨",
-      "mImgUrl": "https://m.winex-hk.com/upload/20190203/20190203092848_8992.png",
-      "mHref": "https://m.winex-hk.com/activity/fengjiubihai"
+      title: "逢九必嗨",
+      mImgUrl: "https://m.winex-hk.com/upload/20190203/20190203092848_8992.png",
+      mHref: "https://m.winex-hk.com/activity/fengjiubihai"
     },
     {
-      "title": "签到领豆",
-      "mImgUrl": "https://m.winex-hk.com/upload/20190203/20190203092858_2225.png",
-      "mHref": "https://m.winex-hk.com/activity/beans"
+      title: "签到领豆",
+      mImgUrl: "https://m.winex-hk.com/upload/20190203/20190203092858_2225.png",
+      mHref: "https://m.winex-hk.com/activity/beans"
     }
   ]

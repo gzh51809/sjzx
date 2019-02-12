@@ -119,5 +119,11 @@
   "devDependencies": {
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0"
+  },
+  "proxy":{
+    "/app":{
+      "target":"https://m.winex-hk.com",
+      "changeOrigin":true
+    }
   }
 }

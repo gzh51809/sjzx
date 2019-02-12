@@ -49,7 +49,7 @@ class App extends Component {
           icon:'user'
         },
        ],
-       current:'/Home' 
+       current:'/home' 
     }
       //this绑定
       this.handleChange = this.handleChange.bind(this);
